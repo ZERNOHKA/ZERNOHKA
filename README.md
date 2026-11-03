@@ -1,52 +1,58 @@
-# Шестернин Никита — Software Developer
+# Никита Шестернин
 
-Разрабатываю веб-продукты: от интерфейса и бизнес-логики до развёртывания и поддержки в production. Основное направление — frontend/fullstack-разработка на React, TypeScript и Node.js с практическим опытом работы с инфраструктурой.
+**Software Developer · Fullstack & Desktop**
 
-Сейчас развиваю собственный продукт **ZERNIX**, работаю с существующей корпоративной кодовой базой и учусь на 4 курсе Hexlet College по направлению «Информационные системы и программирование».
+Разрабатываю веб- и desktop-приложения на **React, TypeScript, Node.js и Python**. Прошёл четырёхмесячную стажировку в **BLACKCLOUD**, где работал над внутренним интерфейсом для Redmine. В собственных проектах занимаюсь серверной логикой, REST API, базами данных, Docker и автоматизацией проверок.
 
-## Главный продукт — ZERNIX
+📍 Екатеринбург · удалённо  
+[Telegram](https://t.me/ZERNOHKA) · [Email](mailto:sesterninn69@gmail.com)
 
-[**ZERNIX Dungeon Assistant**](https://zernix.ru) помогает мастерам настольных ролевых игр пройти путь от идеи до готового материала для игровой сессии:
+## Опыт работы
 
-`идея → сцена → NPC → encounter → loot → игровая сессия`
+**BLACKCLOUD — Frontend Developer Intern** · июнь — сентябрь 2026
 
-Продукт охватывает подготовку сессий, генерацию сцен и NPC, encounters и loot, контекст кампании, историю, избранное и данные игрового мира — локации, фракции и связанные сущности.
+- Разрабатывал внутреннюю Kanban-доску для Redmine на React и TypeScript.
+- Реализовывал фильтрацию, статусы задач и логику рабочих процессов; интегрировал интерфейс с Redmine REST API.
+- Исправлял ошибки, проверял функциональность и разбирался с существующим кодом и Docker-окружением.
 
-- Работающее веб-приложение: [zernix.ru](https://zernix.ru)
-- Активная разработка ведётся в закрытом репозитории
-- Публичный срез проекта: [ZERNIX-Dungeon-Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)
-- Технический охват: React, TypeScript, Node.js, REST API, SQLite, Docker, nginx, Linux и VPS
+*Код и внутренние материалы компании не публикую.*
 
-ZERNIX развивается как самостоятельный продукт для реального использования, а не только как технический pet-project. Возможности выпускаются поэтапно; функции в разработке не выдаются за завершённые.
+## Проекты
 
-## Опыт
+### [ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)
 
-Участвую в разработке внутреннего продукта на базе **Redmine** и специализированного **Kanban-интерфейса**. Работа включает задачи и статусы Redmine, правила workflow, ограничения переходов, интеграцию с REST API, frontend-архитектуру и изменения в существующей кодовой базе.
+Веб- и desktop-помощник для мастеров D&D: генерация NPC, сцен и наград, история результатов и инструменты подготовки сессий.
 
-Исходный код компании и внутренние детали реализации не публикуются.
+**Стек:** React, TypeScript, Node.js, Express, Electron, SQLite, REST API, интеграция с языковой моделью.
 
-## Избранные проекты
+**Статус:** в открытом репозитории — ранняя версия проекта; актуальная разработка ведётся отдельно в закрытом репозитории. Домен проекта — [zernix.ru](https://zernix.ru).
 
-| Проект | Что демонстрирует | Стек |
-| --- | --- | --- |
-| [ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant) | Продуктовая разработка, сложная предметная область, генераторы, локальные данные, web и desktop | React, TypeScript, Node.js, SQLite, Electron |
-| [ZERNIX NEXUS](https://github.com/ZERNOHKA/ZERNIX-NEXUS) | Windows desktop, обратимые системные операции, мониторинг и сборка приложения | Python, CustomTkinter, psutil, WMI, PyInstaller |
+### [Legacy PHP CRM Lab](https://github.com/ZERNOHKA/legacy-php-crm-lab)
+
+Публичная реконструкция технической задачи с практики: воспроизвёл окружение **PHP 5.3.3 + Apache/CGI + MariaDB** и настроил корректную загрузку `php.ini` для веб-запросов.
+
+Добавил HTTP-проверки на Python, браузерные тесты с Playwright и CI в GitHub Actions. Используются только вымышленные данные, без корпоративного кода.
+
+**Стек:** Docker Compose, PHP, Apache/CGI, MariaDB, Python, Playwright, GitHub Actions.
+
+### [ZERNIX NEXUS](https://github.com/ZERNOHKA/ZERNIX-NEXUS)
+
+Windows-утилита для настройки системы: пресеты, управление отдельными параметрами и мониторинг состояния ПК.
+
+**Стек:** Python, CustomTkinter, psutil, WMI / Windows API, PyInstaller.
 
 ## Технологии
 
-**Frontend** — JavaScript, TypeScript, React, Tailwind CSS, Vite, HTML, CSS  
-**Backend** — Node.js, Fastify, REST API, Python  
-**Data** — SQLite, SQL, JSON  
-**Infrastructure** — Docker, Linux, Ubuntu, nginx, VPS, Git, GitHub  
-**Desktop** — Electron, разработка инструментов для Windows
+- **Frontend:** React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Vite
+- **Backend и данные:** Node.js, Express, REST API, SQL, SQLite; Python
+- **Инструменты и тестирование:** Git, Docker, Docker Compose, Postman, Playwright, GitHub Actions
+- **Desktop и системы:** Electron, Windows API, Linux; опыт работы с legacy PHP/Apache
 
-## Текущий фокус
+## Образование
 
-- Развитие и эксплуатация ZERNIX как работающего веб-продукта
-- Поддерживаемая frontend-архитектура вокруг реальных бизнес-правил
-- Развитие backend- и infrastructure-навыков через продуктовые задачи
-- Декомпозиция неоднозначных требований на небольшие проверяемые релизы
+**Хекслет Колледж** · 2023–2027  
+09.02.07 «Информационные системы и программирование», 4-й курс.
 
 ---
 
-[zernix.ru](https://zernix.ru) · [Публичные репозитории](https://github.com/ZERNOHKA?tab=repositories&type=source)
+[Публичные репозитории](https://github.com/ZERNOHKA?tab=repositories&type=source) · [Telegram](https://t.me/ZERNOHKA)
