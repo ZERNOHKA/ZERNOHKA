@@ -1,8 +1,8 @@
 # Никита Шестернин
 
-**Frontend Developer · React / TypeScript**
+**JavaScript / TypeScript Developer · React / Node.js**
 
-Разрабатываю веб-интерфейсы на React и TypeScript. На стажировке в BLACKCLOUD работал над Kanban-доской для Redmine. Развиваю ZERNIX Dungeon Assistant.
+Разрабатываю веб-приложения на JavaScript и TypeScript. На стажировке в BLACKCLOUD работал над Kanban-доской для Redmine на React. В ZERNIX Dungeon Assistant занимаюсь интерфейсом, серверной логикой и интеграцией с данными.
 
 Екатеринбург · удалённо  
 [Telegram](https://t.me/ZERNOHKA) · [Email](mailto:sesterninn69@gmail.com)
@@ -11,9 +11,15 @@
 
 | Проект | Что сделал | Технологии |
 | --- | --- | --- |
-| **[ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)** | Развиваю помощник для мастеров D&D с генерацией персонажей, сцен и наград. [Веб-приложение](https://zernix.ru) · [Ранняя публичная версия](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant) | React, TypeScript, Electron, SQLite |
+| **[ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)** | Развиваю помощник для мастеров D&D с генерацией персонажей, сцен и наград. [Веб-приложение](https://zernix.ru) · [Ранняя публичная версия](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant) | React, TypeScript, Node.js, Express, Electron, SQLite |
 | **[Legacy PHP CRM Lab](https://github.com/ZERNOHKA/legacy-php-crm-lab)** | Воссоздал окружение PHP 5.3.3, настроил загрузку `php.ini` для CGI и добавил автоматические проверки. Демостенд использует вымышленные данные. | Docker Compose, Apache/CGI, MariaDB, Playwright |
 | **[ZERNIX NEXUS](https://github.com/ZERNOHKA/ZERNIX-NEXUS)** | Разработал Windows-утилиту с пресетами, мониторингом и восстановлением настроек. В репозитории есть деморежим. | Python, CustomTkinter, Windows API |
+
+### ZERNIX Dungeon Assistant — генерация и сохранение награды
+
+**Fullstack.** Мастер задаёт параметры награды и запускает генерацию в React-интерфейсе. В desktop-версии запрос идёт через Electron IPC, а генератор подбирает предметы из SQLite. Интерфейс показывает карточку, которую можно добавить в избранное. Избранное сохраняется в `localStorage`.
+
+**Backend.** Node.js, Express, REST API и SQL (SQLite). [Обработчик генерации наград](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant/blob/b78142ede849bd4fb98e2828a3916c83972eadd4/electron/zernix-api-server.cjs#L43-L65) проверяет API-ключ, передаёт параметры генератору и возвращает JSON.
 
 ## Опыт работы
 
