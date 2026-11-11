@@ -1,11 +1,19 @@
 # Никита Шестернин
 
-**Software Developer · Fullstack & Desktop**
+**Frontend Developer · React / TypeScript**
 
-Разрабатываю веб- и desktop-приложения на **React, TypeScript, Node.js и Python**. Прошёл четырёхмесячную стажировку в **BLACKCLOUD**, где работал над внутренним интерфейсом для Redmine. В собственных проектах занимаюсь серверной логикой, REST API, базами данных, Docker и автоматизацией проверок.
+Разрабатываю веб-интерфейсы на React и TypeScript. На стажировке в BLACKCLOUD работал над Kanban-доской для Redmine. Развиваю ZERNIX Dungeon Assistant.
 
-📍 Екатеринбург · удалённо  
+Екатеринбург · удалённо  
 [Telegram](https://t.me/ZERNOHKA) · [Email](mailto:sesterninn69@gmail.com)
+
+## Избранные проекты
+
+| Проект | Что сделал | Технологии |
+| --- | --- | --- |
+| **[ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)** | Развиваю помощник для мастеров D&D с генерацией персонажей, сцен и наград. [Веб-приложение](https://zernix.ru) · [Ранняя публичная версия](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant) | React, TypeScript, Electron, SQLite |
+| **[Legacy PHP CRM Lab](https://github.com/ZERNOHKA/legacy-php-crm-lab)** | Воссоздал окружение PHP 5.3.3, настроил загрузку `php.ini` для CGI и добавил автоматические проверки. Демостенд использует вымышленные данные. | Docker Compose, Apache/CGI, MariaDB, Playwright |
+| **[ZERNIX NEXUS](https://github.com/ZERNOHKA/ZERNIX-NEXUS)** | Разработал Windows-утилиту с пресетами, мониторингом и восстановлением настроек. В репозитории есть деморежим. | Python, CustomTkinter, Windows API |
 
 ## Опыт работы
 
@@ -16,30 +24,6 @@
 - Исправлял ошибки, проверял функциональность и разбирался с существующим кодом и Docker-окружением.
 
 *Код и внутренние материалы компании не публикую.*
-
-## Проекты
-
-### [ZERNIX Dungeon Assistant](https://github.com/ZERNOHKA/ZERNIX-Dungeon-Assistant)
-
-Веб- и desktop-помощник для мастеров D&D: генерация NPC, сцен и наград, история результатов и инструменты подготовки сессий.
-
-**Стек:** React, TypeScript, Node.js, Express, Electron, SQLite, REST API, интеграция с языковой моделью.
-
-**Статус:** в открытом репозитории — ранняя версия проекта; актуальная разработка ведётся отдельно в закрытом репозитории. Домен проекта — [zernix.ru](https://zernix.ru).
-
-### [Legacy PHP CRM Lab](https://github.com/ZERNOHKA/legacy-php-crm-lab)
-
-Публичная реконструкция технической задачи с практики: воспроизвёл окружение **PHP 5.3.3 + Apache/CGI + MariaDB** и настроил корректную загрузку `php.ini` для веб-запросов.
-
-Добавил HTTP-проверки на Python, браузерные тесты с Playwright и CI в GitHub Actions. Используются только вымышленные данные, без корпоративного кода.
-
-**Стек:** Docker Compose, PHP, Apache/CGI, MariaDB, Python, Playwright, GitHub Actions.
-
-### [ZERNIX NEXUS](https://github.com/ZERNOHKA/ZERNIX-NEXUS)
-
-Windows-утилита для настройки системы: пресеты, управление отдельными параметрами и мониторинг состояния ПК.
-
-**Стек:** Python, CustomTkinter, psutil, WMI / Windows API, PyInstaller.
 
 ## Технологии
 
@@ -52,7 +36,3 @@ Windows-утилита для настройки системы: пресеты,
 
 **Хекслет Колледж** · 2023–2027  
 09.02.07 «Информационные системы и программирование», 4-й курс.
-
----
-
-[Публичные репозитории](https://github.com/ZERNOHKA?tab=repositories&type=source) · [Telegram](https://t.me/ZERNOHKA)
